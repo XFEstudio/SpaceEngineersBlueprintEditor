@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SpaceEngineersBlueprintEditor.Resources.Theme.LightTheme">
+    <Color x:Key="MainColor">#512BD4</Color>
+    <Color x:Key="LightMainColor">#F0ECFE</Color>
+    <Color x:Key="DisabledMainColor">#A491E8</Color>
+    <Color x:Key="DeepDarkGrayColor">#444654</Color>
+    <Color x:Key="BackGroundColor">White</Color>
+    <Color x:Key="PureBackGroundColor">White</Color>
+    <Color x:Key="SecondBackGroundColor">#f0f0f0</Color>
+    <Color x:Key="PostTitleTextColor">#3e3192</Color>
+    <Color x:Key="NormalTextColor">Black</Color>
+    <Color x:Key="WhiteInLightAndTransparentInDarkColor">White</Color>
+</ResourceDictionary>

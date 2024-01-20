@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SpaceEngineersBlueprintEditor.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SpaceEngineersBlueprintEditor"
+    xmlns:viewpage="clr-namespace:SpaceEngineersBlueprintEditor.ViewPage"
+    Shell.FlyoutBehavior="Disabled"
+    Title="太空工程师蓝图编辑器">
+
+    <TabBar>
+        <Tab
+            Title="主页">
+            <ShellContent
+                Title="主页"
+                ContentTemplate="{DataTemplate viewpage:MainPage}"
+                Route="MainPage" />
+        </Tab>
+        <Tab
+            Title="蓝图编辑">
+            <ShellContent
+                Title="蓝图编辑"
+                ContentTemplate="{DataTemplate viewpage:BluePrintSelectPage}"
+                Route="BluePrintSelectPage"/>
+        </Tab>
+    </TabBar>
+
+
+</Shell>
