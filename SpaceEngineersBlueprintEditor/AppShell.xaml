@@ -6,7 +6,14 @@
     xmlns:local="clr-namespace:SpaceEngineersBlueprintEditor"
     xmlns:viewpage="clr-namespace:SpaceEngineersBlueprintEditor.ViewPage"
     Shell.FlyoutBehavior="Disabled"
-    Title="太空工程师蓝图编辑器">
+    Title="太空工程师蓝图编辑器"
+    TitleColor="{DynamicResource MainColor}"
+    FlyoutBackgroundColor="{DynamicResource SecondBackGroundColor}"
+    TabBarTitleColor="{DynamicResource MainColor}"
+    BackgroundColor="{DynamicResource SecondBackGroundColor}"
+    UnselectedColor="{DynamicResource NormalTextColor}"
+    TabBarUnselectedColor="{DynamicResource NormalTextColor}"
+    TabBarForegroundColor="{DynamicResource MainColor}">
 
     <TabBar>
         <Tab
@@ -20,8 +27,8 @@
             Title="蓝图编辑">
             <ShellContent
                 Title="蓝图编辑"
-                ContentTemplate="{DataTemplate viewpage:BluePrintSelectPage}"
-                Route="BluePrintSelectPage"/>
+                ContentTemplate="{DataTemplate viewpage:BlueprintEditorMainPage}"
+                Route="BlueprintEditorMainPage"/>
         </Tab>
     </TabBar>
 

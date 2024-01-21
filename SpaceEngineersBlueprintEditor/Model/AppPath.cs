@@ -10,6 +10,6 @@ public static class AppPath
         public static string Root { get; } = $"{SpaceEngineersRootPath}/Blueprints";
         public static string Local { get; } = $"{Root}/local";
         public static string Cloud { get; } = $"{Root}/cloud";
-        public static string WorkShop { get; } = $"{Root}/workshop";
+        public static string WorkShop { get; } = $"{Root}/workshop/temp/Steam";
     }
 }

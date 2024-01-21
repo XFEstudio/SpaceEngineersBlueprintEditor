@@ -12,5 +12,4 @@ public static class AppSystemProfile
         get { return theme; }
         set { theme = value; XFEProfile.SaveProfile(typeof(AppSystemProfile)); }
     }
-
 }
